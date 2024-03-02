@@ -28,4 +28,7 @@
 ![pinging the VM from my machine](https://github.com/Bukaslye/Bukaslye/assets/156098907/87e20aba-80d3-4f13-b4a8-c89188110026)
 ## Since http and https were allowed, we should be able to access the user interface from our physical computer's web browser. Go to the physical computer, open a web browser and enter the IP address of the fortigate virtual machine configured, this should be successful, a web page with the option to enter username and password will be shown if configured properly. Now login with the configured login credentials.
 ![test Https after testing ping ](https://github.com/Bukaslye/Bukaslye/assets/156098907/15c8c5b1-9a14-4338-9b40-001b0ab3e079)
-
+Follow the prompt and configure the setting as they come, you also have the option of skipping it, you can always go back to do it at your free time.
+![First page](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/1a3dad5a-ed96-490f-8f45-27a538fd694f)
+![dashboard settings ](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/2bac097b-ce5d-4830-9b77-3c138224b6b5)
+The fortigate machine is running now, you can view the dashboard and other tabs. next is to validate the firewall license, to do that connect to forticare, next click on the licenses tab, it will prompt the fortigate VM license page, click on evaluation license then enter your forticare credentials that was created during the initial setup where the fortigate VM image was downloaded and press enter. The forticare accout will regiater the VM and immediately restart the virtual machine.
