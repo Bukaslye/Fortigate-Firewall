@@ -31,4 +31,10 @@
 Follow the prompt and configure the setting as they come, you also have the option of skipping it, you can always go back to do it at your free time.
 ![First page](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/1a3dad5a-ed96-490f-8f45-27a538fd694f)
 ![dashboard settings ](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/2bac097b-ce5d-4830-9b77-3c138224b6b5)
-The fortigate machine is running now, you can view the dashboard and other tabs. next is to validate the firewall license, to do that connect to forticare, next click on the licenses tab, it will prompt the fortigate VM license page, click on evaluation license then enter your forticare credentials that was created during the initial setup where the fortigate VM image was downloaded and press enter. The forticare accout will regiater the VM and immediately restart the virtual machine.
+## The fortigate machine is running now, you can view the dashboard and other tabs. next is to validate the firewall license, to do that connect to forticare, next click the licenses tab, it will prompt the fortigate VM license page where it will be displayed that the VM is not licensed. You'll have an option to choose a full license or evaluation license, we'd be using evaluation license since this is a VM, click on evaluation license and then enter your forticare credentials that was created during the initial setup where the fortigate VM image was downloaded and press enter. The forticare accout will register the VM and immediately restart the virtual machine.
+![fortigate license](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/f78aa9ba-2003-4f05-b208-8e1ea527bdb4)
+## Once the restart process is complete, log in to the firewall with the correct credentials and now we'd see the normal configurations shown when accessing the firewall for the first time, accept all the default values till the dashboard is shown. To confirm that the license has been activated, access the cli from the first icon in the top right hand of the screen, input the commands "get sys status", you should see that the license is valid 
+![License Activated](https://github.com/Bukaslye/Fortigate-Firewall/assets/156098907/81ee3cb3-dcb8-4ea2-a58a-aab152832a21)
+
+
+
